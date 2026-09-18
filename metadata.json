@@ -1,0 +1,7 @@
+{
+  "name": "أهل القرآن",
+  "description": "صفحة تحميل تطبيق أهل القرآن APK للأندرويد - رفيقك اليومي للثبات على الطاعات ومتابعة العبادات بهدوء وبساطة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
