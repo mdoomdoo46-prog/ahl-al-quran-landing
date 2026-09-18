@@ -2,7 +2,10 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import fs from 'fs';
-import {defineConfig, Plugin} from 'vite';
+import { fileURLToPath } from 'url';
+import { defineConfig, Plugin } from 'vite';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 function staticApkPlugin(): Plugin {
   return {
